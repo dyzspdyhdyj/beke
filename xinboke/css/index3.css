@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: '宋体';
+}
+body {
+  font-size: 12px;
+}
+
+header {
+  width: 100%;
+  height: .5rem;
+  background: #fff;
+  border-bottom: .01rem solid #eee;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.headerC {
+  width: 1.2rem;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.me, .pic {
+  width: 50%;
+  height: 100%;
+  font-size: .16rem;
+  color: #000;
+  text-align: center;
+  line-height: .5rem;
+  box-sizing: border-box;
+}
+
+.pic {
+  color: #F2595B;
+  border-bottom: .02rem solid #F2595B;
+}
+
+.line {
+  margin-top: .5rem;
+}
+
+.main {
+  width: 100%;
+  height: auto;
+}
+
+.main img {
+  width: 100%;
+}
+
+.box {
+  width: 94%;
+  margin: 0 auto;
+  border-bottom: .01rem solid #eee;
+  margin-top: .1rem;
+}
+
+.time, .times {
+  font-size: .10rem;
+  color: #bbb;
+}
+
+.title {
+  font-size: .16rem;
+  margin-top: .05rem;
+  color: #000;
+}
+
+.times {
+  margin-top: .08rem;
+  margin-bottom: .05rem;
+}

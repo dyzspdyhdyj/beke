@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: '宋体';
+}
+body {
+  font-size: 12px;
+}
+
+header {
+  width: 100%;
+  height: .5rem;
+  background: #fff;
+  border-bottom: .01rem solid #eee;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.headerC {
+  width: 1.2rem;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.me, .pic {
+  width: 50%;
+  height: 100%;
+  font-size: .16rem;
+  color: #000;
+  text-align: center;
+  line-height: .5rem;
+  box-sizing: border-box;
+}
+
+/* .pic {
+  color: #F2595B;
+  border-bottom: .02rem solid #F2595B;
+} */
+
+.line {
+  margin-top: .5rem;
+}
+
+.pic{
+    width: 100%;
+    height: 4rem;
+    /* background: yellow; */
+}
+.kc{
+	height: .8rem;
+	width: 100%;
+}
+.pic img{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+    box-sizing: border-box;
+
+}
+
+.xiangqing {
+    box-sizing: border-box;
+    padding: 0.4rem 0.2rem;
+    background: black;
+}
+
+p {
+    font-size: 0.24rem;
+    letter-spacing: 0.02rem;
+    line-height: 0.5rem;
+    text-align: justify;
+    color: #fff;
+}
